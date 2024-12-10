@@ -24,6 +24,15 @@ while (countdown > 0) {
 console.log('Blast off!');
 
 */
+let coundown = 1;
+while (coundown < 10) {
+  console.log(`Coutdown: ${coundown}`);
+  coundown++;
+}
+console.log("Blast off!");
+
+
+
 
 //OPPGAVE.2, For loop
 /*
@@ -49,6 +58,19 @@ for (let i = 1; i <= 10; i++) {
 }
 
 */
+const number = 7;
+for (let i = 1; i <= 10; i++) {
+  console.log(`${number} x ${i} = ${number * i}`)
+}
+
+const frukt = ["epler,bananer"];
+for(let i =0; i < frukt.length; i++) {
+  console.log(frukt[i]);
+}
+
+
+
+
 
 //OPPGAVE.3, forEach
 /*
@@ -74,6 +96,15 @@ shoppingList.forEach((item) => {
   console.log(item);
 });
 */
+
+let shoppingList = [`milk`,`bread`, `fish`, `egg`];
+shoppingList.forEach((item) => {
+  console.log(item);
+});
+
+
+
+
 
 //OPPGAVE.4, map
 /*
@@ -104,8 +135,17 @@ console.log(numbers);
 
 
 */
+const numbers = [1,2,3];
+const doubled = numbers.map((number) => number * 2);
+console.log(doubled);
+console.log(numbers);
+
 
 /*
+
+
+
+
 
 EKSTRA OPPGAVE:
 
